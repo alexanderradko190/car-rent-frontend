@@ -1,0 +1,53 @@
+/**
+ * Переиспользуемые стили форм.
+ * Ширина и отступы как на странице профиля.
+ */
+
+.form-card {
+  padding: 24px;
+  width: 75%;
+  box-sizing: border-box;
+}
+
+.form-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-stack .form-stack {
+  gap: 18px;
+}
+
+.form-card input,
+.form-card select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-card .ui-input,
+.form-card .ui-select,
+.form-block .ui-input,
+.form-block .ui-select {
+  width: 100%;
+}
+
+.form-block {
+  padding: 24px;
+}
+
+.form-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 75%;
+  box-sizing: border-box;
+}
+
+.form-blocks .form-block .form-stack {
+  gap: 18px;
+}
+
+.upload-block {
+  margin-top: 24px;
+}
